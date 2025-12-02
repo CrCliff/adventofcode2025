@@ -1,0 +1,8 @@
+*.out
+
+out
+part1
+part2
+
+input.txt
+settings.json
