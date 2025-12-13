@@ -1,5 +1,5 @@
 
-CC=g++
+CC=clang++
 CFLAGS=-std=c++20
 
 .PHONY: clean test
