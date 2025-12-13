@@ -27,3 +27,16 @@ jobs:
     - name: day04
       working-directory: ./day04
       run: make test
+
+  build-clang:
+    runs-on: ubuntu-latest
+
+    container:
+      image: silkeh/clang:14
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: day05
+      working-directory: ./day05
+      run: make test
+

@@ -1,0 +1,9 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+UseTab: Never
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+SpacesInParentheses: false
+SpaceBeforeParens: ControlStatements: false
+BreakBeforeBraces: Attach
+ColumnLimit: 0
