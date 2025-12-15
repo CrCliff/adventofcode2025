@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <sstream>
 
 constexpr int M = 15;
@@ -30,7 +31,7 @@ int main() {
       i++;
       if (is_empty(G[i])) { i++; break; }
     }
-    // std::printf("%c\n", op);
+    // std::printf("%c %ld\n", OP, res);
     tot += res;
   }
 
